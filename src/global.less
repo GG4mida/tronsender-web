@@ -1,0 +1,115 @@
+@import 'tailwindcss/components.css';
+@import 'tailwindcss/utilities.css';
+@import '~antd/es/style/variable.less';
+
+@content-width: 1200px;
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ol,
+ul {
+  padding: 0 18px;
+
+  li {
+    margin: 5px 0;
+  }
+}
+
+.ant-layout {
+  min-height: 100vh;
+}
+
+.ant-form-item {
+  margin-bottom: 16px !important;
+}
+
+.ant-tooltip {
+  max-width: 500px !important;
+}
+
+.ant-table-column-title {
+  margin-right: 5px;
+}
+
+.ant-pagination-total-text {
+  float: left;
+  color: #343536;
+}
+
+.ant-menu-submenu {
+  .ant-menu-item-only-child {
+    padding-left: 40px !important;
+  }
+}
+
+.ant-list-item-action {
+  width: 180px;
+  min-width: 180px;
+  text-align: right;
+  margin-left: 24px;
+}
+
+.ant-radio-button-wrapper {
+  &:first-child {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+  &:last-child {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+}
+
+.ant-menu-item:hover {
+  background-color: inherit !important;
+  opacity: 0.6;
+}
+
+.ant-menu-item-selected {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.ant-pro-top-nav-header-main {
+  width: @content-width;
+  margin: 0 auto;
+}
+
+.main-container {
+  padding: 25px;
+  min-height: 100%;
+  width: @content-width;
+  margin: 25px auto;
+  background-color: @component-background;
+}
+
+.feature-container {
+  width: @content-width;
+  margin: 25px auto;
+}
+
+.ghost-container {
+  margin: 15px;
+  min-height: 100%;
+}
+
+body.dark {
+  .ant-card-grid {
+    box-shadow: none !important;
+  }
+}
+
+.list-stat-container {
+  margin-top: 15px;
+  text-align: left;
+  opacity: 0.5;
+}
