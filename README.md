@@ -4,7 +4,7 @@
 
 > 在线地址：[https://sender.tronapi.com](https://sender.tronapi.com)
 
-<img width="100%" src="https://github.com/GG4mida/tronsender-web/blob/master/screenshot/home.png?raw=true"/>
+<img width="100%" src="https://github.com/GG4mida/tronsender-web/blob/main/screenshot/home.png?raw=true"/>
 
 ## 🙋 说明
 
